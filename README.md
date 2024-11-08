@@ -7,8 +7,8 @@
 
 ## 2. Text Vectorizer and Preprocessing Text
 <ul>
-<li><a href="">Text Vectorizer</a></li>
-<li><a href="">Text Query</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class/tree/main/Text_Vectorizer">Text Vectorizer</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class/tree/main/Text_Query">Text Query</a></li>
 </ul>
 
 ## Get Started with NLP in Real-Life Applications
