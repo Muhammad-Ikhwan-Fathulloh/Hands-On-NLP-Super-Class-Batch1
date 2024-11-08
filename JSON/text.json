@@ -1,0 +1,14 @@
+{
+    "person": [
+        {
+            "name": "koko",
+            "description": "mentor",
+            "gender": "male"
+        },
+        {
+            "name": "kuku",
+            "description": "mentor",
+            "gender": "female"
+        }
+    ]
+}
