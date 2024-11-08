@@ -2,7 +2,7 @@
 
 ## 1. Introduction NLP and Text Processing
 <ul>
-<li><a href="">Text Processing</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class/tree/main/Text_Preprocessing">Text Processing</a></li>
 </ul>
 
 ## 2. Text Vectorizer and Preprocessing Text
