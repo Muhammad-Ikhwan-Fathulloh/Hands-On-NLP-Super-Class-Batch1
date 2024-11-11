@@ -7,8 +7,6 @@ This project is a text classification model built using Python, FastAPI, and sci
 2. [Setup](#setup)
 3. [Running the Server](#running-the-server)
 4. [Testing the API](#testing-the-api)
-5. [File Structure](#file-structure)
-6. [License](#license)
 
 ## Installation
 
