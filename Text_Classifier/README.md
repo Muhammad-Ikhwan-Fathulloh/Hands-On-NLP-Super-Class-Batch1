@@ -83,7 +83,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "text": "How can I help you today?"
+      "text": "Halo, selamat datang!"
     }
     ```
 
