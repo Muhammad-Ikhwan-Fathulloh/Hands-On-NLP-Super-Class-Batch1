@@ -31,4 +31,8 @@ async def predict_intent(input: TextInput):
 # Define a health check endpoint
 @app.get("/")
 async def root():
-    return {"message": "Intent Classification Model is running"}
+    return {"message": "Intent Classification Model is success running"}
+
+@app.get("/profile")
+async def profile():
+    return {"name": "Ikhwan", "description": "Learn NLP"}
