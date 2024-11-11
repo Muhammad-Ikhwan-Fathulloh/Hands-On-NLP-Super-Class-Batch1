@@ -13,7 +13,7 @@
 
 ## 3. Text Classifier using TF-IDF and Logistic
 <ul>
-<li><a href="">Coming Soon</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class-Batch1/tree/main/Text_Classifier">Text Classifier</a></li>
 </ul>
 
 ## 4. Recurrant Neural Network
