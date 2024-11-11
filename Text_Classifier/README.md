@@ -100,15 +100,3 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
     ```
 
 This will show the predicted intent for the input text.
-
-## File Structure
-
-Here’s a breakdown of the project files:
-
-Text-Classifier/ 
-├── app.py # FastAPI application serving the model 
-├── train.py # Script to train and save the model 
-├── data3.csv # CSV file containing text and intent data 
-├── requirements.txt # List of required Python packages 
-└── README.md # This file
-
