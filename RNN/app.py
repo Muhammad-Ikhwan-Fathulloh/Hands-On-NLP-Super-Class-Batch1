@@ -85,3 +85,7 @@ def predict(request: PredictionRequest):
         category = categoryFromOutput(output)
         confidence = torch.exp(output.max()).item()
     return PredictionResponse(category=category, confidence=confidence)
+
+@app.get("/")
+async def root():
+    return {"message": "RNN Model is success running"}
