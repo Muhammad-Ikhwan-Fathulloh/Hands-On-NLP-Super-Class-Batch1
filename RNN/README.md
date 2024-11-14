@@ -1,25 +1,25 @@
 # Recurrant Neural Network
 
-## Mengatur Interpreter Conda di Visual Studio Code
+## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**
    - https://www.anaconda.com/download
 
-2. **Buka Command Palette**
-   - Tekan `Ctrl + Shift + P` (atau `Cmd + Shift + P` di Mac) untuk membuka Command Palette.
+2. **Open Command Palette**
+   - Klik `Ctrl + Shift + P` (atau `Cmd + Shift + P` di Mac) for open Command Palette.
 
-3. **Pilih Interpreter**
-   - Ketik `Python: Select Interpreter` di Command Palette, lalu pilih opsi tersebut.
+3. **Choose Interpreter**
+   - Klik `Python: Select Interpreter` in Command Palette, choose option.
 
-4. **Pilih Environment Conda**
-   - Di daftar interpreter yang muncul, pilih environment Conda yang ingin Anda gunakan, misalnya `conda-env:<environment_name>`.
+4. **Choose Environment Conda**
+   - List interpreter, choose environment Conda, example `conda-env:<environment_name>`.
 
-5. **Jika Environment Tidak Terlihat**
-   - Pilih `Enter interpreter path...`, lalu arahkan ke lokasi Python dalam environment Conda Anda:
+5. **If Environment Not Visible**
+   - Choose `Enter interpreter path...`, setup location Python environment Conda:
      - **Windows**: `C:\Users\<username>\Anaconda3\envs\<environment_name>\python.exe`
      - **Mac/Linux**: `/Users/<username>/anaconda3/envs/<environment_name>/bin/python`
 
-6. **Verifikasi**
-   - Pastikan environment yang terpilih sudah muncul di pojok kanan bawah Visual Studio Code.
+6. **Verification**
+   - Verification environment in Visual Studio Code.
 
 # RNN Model
 
