@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import torch
 import torch.nn as nn
@@ -8,6 +9,15 @@ import os
 
 # Define FastAPI app
 app = FastAPI()
+
+# Enable CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Ganti "*" dengan domain spesifik untuk keamanan lebih baik
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load model configurations
 all_letters = string.ascii_letters + " .,;'"
