@@ -1,4 +1,4 @@
-# SPAM Classifier using BERT
+# Text Generation 
 
 ## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**

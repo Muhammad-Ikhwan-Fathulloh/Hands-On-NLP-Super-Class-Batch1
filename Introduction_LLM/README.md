@@ -1,4 +1,4 @@
-# SPAM Classifier using BERT
+# Introduction to LLM (Large Language Model)
 
 ## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**

@@ -1,4 +1,4 @@
-# SPAM Classifier using BERT
+# Named Entity Recognition
 
 ## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**
@@ -21,9 +21,9 @@
 6. **Verification**
    - Verification environment in Visual Studio Code.
 
-# BERT Model
+# NER Model
 
-This project is a BERT model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
+This project is a NER model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
 
 ## Table of Contents
 1. [Installation](#installation)

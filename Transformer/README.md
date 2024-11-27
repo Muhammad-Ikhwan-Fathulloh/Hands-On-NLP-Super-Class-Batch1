@@ -1,4 +1,4 @@
-# SPAM Classifier using BERT
+# Transformer
 
 ## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**
@@ -21,9 +21,9 @@
 6. **Verification**
    - Verification environment in Visual Studio Code.
 
-# BERT Model
+# Transformer Model
 
-This project is a BERT model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
+This project is a text classification model built using Python, FastAPI, and scikit-learn. The model is trained to classify text data into predefined intents using Bert, and it serves predictions via a FastAPI backend.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -48,22 +48,21 @@ To get started with this project, you need to install the required dependencies.
     pip install -r requirements.txt
     ```
 
-3. Install FastAPI, Uvicorn:
+3. Install FastAPI, Uvicorn, and Joblib:
 
     ```bash
-    pip install fastapi uvicorn
+    pip install fastapi uvicorn joblib
     ```
 
 ## Setup
 
 Before running the server, make sure you have the necessary data and scripts:
 
-- **rnn.pt**: This file contains the data that will be used to train the rnn model. It should have at least two columns:
+- **data3.csv**: This file contains the data that will be used to train the text classification model. It should have at least two columns:
   - `text`: The text data.
-  - `label`: The label of text.
-  - `confidence`: The confidence of text.
+  - `intent`: The corresponding intent for each piece of text.
 
-- **train.py**: This script is used to train the rnn model and save it to a `.pt` file.
+- **train.py**: This script is used to train the text classification model and save it to a `.pth` file. The model uses `BERT` for text vectorization and `Transformer` for classification.
 
 - **app.py**: This file contains the FastAPI application that exposes an API endpoint for making predictions using the trained model.
 
@@ -107,7 +106,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "text": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"
+      "text": "Halo, selamat datang!"
     }
     ```
 
@@ -117,8 +116,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "label": "Spam",
-      "confidence": 0.793820321559906,
+      "intent": "greeting"
     }
     ```
 
