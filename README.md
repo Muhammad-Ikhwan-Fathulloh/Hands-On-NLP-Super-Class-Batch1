@@ -33,12 +33,12 @@
 
 ## 7. Spam Classifier using BERT
 <ul>
-<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class-Batch1/tree/main/Spam_Classifier_Bert">Coming Soon</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class-Batch1/tree/main/Spam_Classifier_Bert">Spam Classifier using BERT</a></li>
 </ul>
 
 ## 8. Named Entity Recognition
 <ul>
-<li><a href="">Coming Soon</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class-Batch1/tree/main/Named_Entity_Recognition">Named Entity Recognition</a></li>
 </ul>
 
 ## 9. Text Generation
