@@ -1,5 +1,8 @@
 # Named Entity Recognition
 
+- [NER.md](NER.md): Penjelasan mendalam mengenai teknik **Named Entity Recognition (NER)**.
+- [ENTITIES.md](ENTITIES.md): Kategori entitas yang dikenali dalam proyek ini.
+
 ## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**
    - https://www.anaconda.com/download
