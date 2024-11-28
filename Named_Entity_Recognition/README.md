@@ -60,10 +60,10 @@ Before running the server, make sure you have the necessary data and scripts:
 
 - **rnn.pt**: This file contains the data that will be used to train the rnn model. It should have at least two columns:
   - `text`: The text data.
-  - `label`: The label of text.
-  - `confidence`: The confidence of text.
+  - `world`: The label of text.
+  - `entity`: The confidence of text.
 
-- **train.py**: This script is used to train the rnn model and save it to a `.pt` file.
+- **train.py**: This script is used to train the rnn model and save it to a `.pth` file.
 
 - **app.py**: This file contains the FastAPI application that exposes an API endpoint for making predictions using the trained model.
 
@@ -107,7 +107,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "text": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"
+      "text": "Bill Gates is the founder of Microsoft"
     }
     ```
 
@@ -117,8 +117,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "label": "Spam",
-      "confidence": 0.793820321559906,
+      "entities": ["Bill: B-per", "Gates: I-per", "Microsoft: B-org"],
     }
     ```
 
