@@ -60,8 +60,7 @@ Before running the server, make sure you have the necessary data and scripts:
 
 - **rnn.pt**: This file contains the data that will be used to train the rnn model. It should have at least two columns:
   - `text`: The text data.
-  - `world`: The label of text.
-  - `entity`: The confidence of text.
+  - `entities`: The entities of text.
 
 - **train.py**: This script is used to train the rnn model and save it to a `.pth` file.
 
