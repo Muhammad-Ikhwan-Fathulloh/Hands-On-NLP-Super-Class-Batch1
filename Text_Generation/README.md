@@ -21,9 +21,9 @@
 6. **Verification**
    - Verification environment in Visual Studio Code.
 
-# BERT Model
+# Text Generation Model
 
-This project is a BERT model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
+This project is a Text Generation model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -58,12 +58,12 @@ To get started with this project, you need to install the required dependencies.
 
 Before running the server, make sure you have the necessary data and scripts:
 
-- **rnn.pt**: This file contains the data that will be used to train the rnn model. It should have at least two columns:
-  - `text`: The text data.
-  - `label`: The label of text.
-  - `confidence`: The confidence of text.
+- **rnn.pt**: This file contains the data that will be used to train the model. It should have at least two columns:
+  - `input_text`: The input text data.
+  - `num_return_sequences`: The num return sequences of text.
+  - `generated_text`: The generated text of text.
 
-- **train.py**: This script is used to train the rnn model and save it to a `.pt` file.
+- **train.py**: This script is used to train the model and save it to a file.
 
 - **app.py**: This file contains the FastAPI application that exposes an API endpoint for making predictions using the trained model.
 
@@ -100,14 +100,15 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 3. **Enter the API URL**: In the URL bar, type:
 
     ```
-    http://127.0.0.1:8000/predict
+    http://127.0.0.1:8000/generate
     ```
 
 4. **Set the request body**: In the body section, select the `JSON` option and enter the following:
 
     ```json
     {
-      "text": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"
+      "input_text": "Hello, how are you?",
+      "num_return_sequences": 1
     }
     ```
 
@@ -117,8 +118,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "label": "Spam",
-      "confidence": 0.793820321559906,
+      "generated_text": "Hello, how are you doing today? It's great to see you!"
     }
     ```
 
