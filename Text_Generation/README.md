@@ -122,4 +122,4 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
     }
     ```
 
-This will show the predicted intent for the input text.
+This will show the generation for the input text.
