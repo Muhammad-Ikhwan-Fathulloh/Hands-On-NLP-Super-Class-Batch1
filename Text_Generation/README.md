@@ -123,3 +123,6 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
     ```
 
 This will show the generation for the input text.
+
+## Model Source
+- Link: https://drive.google.com/drive/folders/1-sXMRyPJpaAjCuoGRCQqHUu39cS-4DCC?usp=sharing
