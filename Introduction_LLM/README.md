@@ -21,9 +21,9 @@
 6. **Verification**
    - Verification environment in Visual Studio Code.
 
-# BERT Model
+# LLM Model
 
-This project is a BERT model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
+This project is a LLM model built using Python, FastAPI, and Pytorch. The model is trained to predict name data and it serves predictions via a FastAPI backend.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -58,12 +58,12 @@ To get started with this project, you need to install the required dependencies.
 
 Before running the server, make sure you have the necessary data and scripts:
 
-- **rnn.pt**: This file contains the data that will be used to train the rnn model. It should have at least two columns:
-  - `text`: The text data.
-  - `label`: The label of text.
-  - `confidence`: The confidence of text.
+- **llm**: This file contains the data that will be used to train the llm model. It should have at least two columns:
+  - `instruction`: The instruction.
+  - `input_data`: The input_data of user.
+  - `response`: The response of promt.
 
-- **train.py**: This script is used to train the rnn model and save it to a `.pt` file.
+- **model**: This script is used to train the llm model and save it to a `rubythalib33/llama3_1_8b_finetuned_bahasa_indonesia` file.
 
 - **app.py**: This file contains the FastAPI application that exposes an API endpoint for making predictions using the trained model.
 
@@ -107,7 +107,8 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "text": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"
+      "instruction": "Tulis artikel singkat tentang manfaat kecerdasan buatan (AI).",
+      "input_data": "Tuliskan dengan gaya bahasa yang mudah dipahami oleh orang awam."
     }
     ```
 
@@ -117,8 +118,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 
     ```json
     {
-      "label": "Spam",
-      "confidence": 0.793820321559906,
+      "response": "Kecerdasan buatan (AI) adalah teknologi yang memungkinkan komputer dan mesin melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pemecahan masalah, pengambilan keputusan, dan pembelajaran.  AI memiliki banyak manfaat, termasuk meningkatkan efisiensi, mengurangi biaya, dan meningkatkan keakuratan.",
     }
     ```
 
