@@ -1,5 +1,7 @@
 # Introduction to LLM (Large Language Model)
 
+- [LLM](Introduction_LLM.md): Penjelasan mendalam mengenai **Introduction to LLM (Large Language Model)**.
+
 ## Setup Interpreter Conda in Visual Studio Code
 1. **Install Anaconda**
    - https://www.anaconda.com/download
