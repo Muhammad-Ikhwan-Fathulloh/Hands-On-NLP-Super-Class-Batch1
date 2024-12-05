@@ -48,7 +48,7 @@
 
 ## 10. Introduction to LLM (Large Language Model)
 <ul>
-<li><a href="">Coming Soon</a></li>
+<li><a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class-Batch1/tree/main/Introduction_LLM">Introduction to LLM (Large Language Model)</a></li>
 </ul>
 
 ## Get Started with NLP in Real-Life Applications
