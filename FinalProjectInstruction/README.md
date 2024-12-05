@@ -4,5 +4,6 @@
 - Presentasikan bisa pake ppt, canva, demo proyek dll 
 - Upload hasilnya ke linkedin tag Ruby Abdullah
 - Linkedin: https://www.linkedin.com/in/rubyabdullah/
+- Deadline 3 Minggu, sampai 29 Desember 2024
 
 Ada kendala? diskusi di grup...
