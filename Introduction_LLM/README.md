@@ -102,7 +102,7 @@ Once the FastAPI server is running, you can test the API by sending HTTP request
 3. **Enter the API URL**: In the URL bar, type:
 
     ```
-    http://127.0.0.1:8000/predict
+    http://127.0.0.1:8000/chat
     ```
 
 4. **Set the request body**: In the body section, select the `JSON` option and enter the following:
